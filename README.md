@@ -102,6 +102,23 @@ Discoverd that the user:
 
 ## **Screenshots** 
 
+![Metadata](metadata http.png)
+![HTTP Traffic](botsv http.png)
+![Sites](Sites.png)
+![User Agent](http_uset_agent http.png)
+![Google Search](google naenara.png)
+![Naenara](Naenara.png)
+![Source IP](src_ip http.png)
+![VPN](express vpn.png)
+![AbuseIPDB](abuseipdb.png)
+![Spreadsheet](spreadsheet.png)
+![Table](table spreadsheet.png)
+
+
+
+
+
+
 
 
 
