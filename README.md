@@ -50,6 +50,14 @@ index=botsv2 sourcetype=stream:http site="www.froth.ly"
 
 ---
 
+5 . Investigated the User Agent
+
+Using OSINT research:
+- l investigated it and found out its a rare browser associated with North Korea
+- Observed its been run on a Linux machine
+
+*  This is unusual and flagged for deeper investigation.
+  
 
 
 
