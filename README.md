@@ -58,6 +58,8 @@ index=botsv2 sourcetype=stream:http site="www.froth.ly"
 
 *  This is unusual and flagged for deeper investigation.
 
+---
+
 6 . Pivoted to Source IP
 - l identified the IP generating the suspicious traffic:
 
@@ -65,6 +67,8 @@ index=botsv2 sourcetype=stream:http site="www.froth.ly"
 | stats count src_ip
 ```
 - Found IP: 85.203.47.86 makes 51 requests to the website which looks suspicious and requires another investigation
+
+---
 
 7. Performed Threat Intelligence Checks
 
@@ -77,6 +81,8 @@ Finding:
 
 - IP linked to Express VPN service and from Denmark
 - Found in the database and had been reported 63 times
+
+---
 
 8 . Investigate User Activity
 
