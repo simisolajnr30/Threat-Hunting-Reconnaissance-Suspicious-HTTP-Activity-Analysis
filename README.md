@@ -46,7 +46,9 @@ index=botsv2 sourcetype=stream:http site="www.froth.ly"
 | stats count by http_user_agent
 | sort +count
 ```
+- I noticed a strange user agent named "Naenara Browser" which look unusual.
 
+---
 
 
 
