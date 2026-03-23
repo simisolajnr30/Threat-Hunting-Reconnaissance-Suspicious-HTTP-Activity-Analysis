@@ -52,12 +52,49 @@ index=botsv2 sourcetype=stream:http site="www.froth.ly"
 
 5 . Investigated the User Agent
 
-Using OSINT research:
+* Using OSINT research:
 - l investigated it and found out its a rare browser associated with North Korea
 - Observed its been run on a Linux machine
 
 *  This is unusual and flagged for deeper investigation.
-  
+
+6 . Pivoted to Source IP
+- l identified the IP generating the suspicious traffic:
+
+```splunk
+| stats count src_ip
+```
+- Found IP: 85.203.47.86 makes 51 requests to the website which looks suspicious and requires another investigation
+
+7. Performed Threat Intelligence Checks
+
+Using:
+
+- IPinfo
+- AbuseIPDB
+
+Finding: 
+
+- IP linked to Express VPN service and from Denmark
+- Found in the database and had been reported 63 times
+
+8 . Investigate User Activity
+
+Discoverd that the user: 
+- Accessed the targeted website
+- Downloaded a file: company_contacts.xlsx
+
+- Possible data exfiltration or reconnaissance activity
+
+## **Outcome**
+
+- ldentified suspicious HTTP traffic
+- Detected unusual user agent (Naenara Browser)
+- Traced activity to a VPN-associated IP
+- Confirmed repeated access behaviour (51 requests)
+- identified potential sensitive file download
+
+## **Screenshots** 
 
 
 
