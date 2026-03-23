@@ -109,7 +109,7 @@ Discoverd that the user:
 ![Google Search](googlenaenara.png)
 ![Naenara](Naenara.png)
 ![Source IP](src_iphttp.png)
-![VPN](Expressvpn.png)
+![VPN](ExpressVPN.png)
 ![AbuseIPDB](abuseipdb.png)
 ![Spreadsheet](spreedsheet.png)
 ![Table](tablespreedsheet.png)
