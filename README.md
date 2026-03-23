@@ -103,7 +103,7 @@ Discoverd that the user:
 ## **Screenshots** 
 
 ![Metadata](metadatahttp.png)
-![HTTP Traffic](botsv http.png)
+![HTTP Traffic](botsvhttp.png)
 ![Sites](Sites.png)
 ![User Agent](http_uset_agenthttp.png)
 ![Google Search](googlenaenara.png)
