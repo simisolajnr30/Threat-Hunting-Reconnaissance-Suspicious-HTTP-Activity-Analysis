@@ -115,6 +115,14 @@ Discoverd that the user:
 ![Table](tablespreedsheet.png)
 
 
+## **Key Learnings**
+
+- Always investigate unsual user agents
+- High request counts can indicate automated or malicious behaviour
+- VPN usage can help attackers hide identity
+- OSINT tolls are critical in threat hunting
+- Building a timeline helps understand attacker behaviour
+
 
 
 
