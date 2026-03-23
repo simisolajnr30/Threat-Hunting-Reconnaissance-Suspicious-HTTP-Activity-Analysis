@@ -13,7 +13,7 @@ In this project, i performed threat hunting using splunk to analyze HTTP traffic
 
   ## **What I Did**
 
-  1. Identified Available Data
+  1 . Identified Available Data
      
 - I started by checking available log in splunk using METADATA
 
