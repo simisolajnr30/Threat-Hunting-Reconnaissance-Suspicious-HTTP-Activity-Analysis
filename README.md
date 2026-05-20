@@ -3,6 +3,11 @@
 In this project, i performed threat hunting using splunk to analyze HTTP traffic within the botsv2 dataset. The objective was identify to suspicious behaviour, investigate anomalies, and determine whether malicious activity occurred.
 
 ---
+# Scenerio
+
+Law enforcement warned our organization about a current campaign that may have impacted our organization. This campaign has been active against other organizations from the same industry sector. Based on the information below we must develop a Hunt hypothesis, plan of action, and execute the plan.
+
+---
 
 ## **Tools Used**
 - Splunk
