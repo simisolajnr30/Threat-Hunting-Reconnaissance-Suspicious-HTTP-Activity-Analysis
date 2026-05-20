@@ -68,6 +68,9 @@ index=botsv2 sourcetype=stream:http site="www.froth.ly"
 
 *  This is unusual and flagged for deeper investigation.
 
+![Google Search](googlenaenara.png)
+![Naenara](Naenara.png)
+  
 ---
 
 6 . Pivoted to Source IP
@@ -77,6 +80,8 @@ index=botsv2 sourcetype=stream:http site="www.froth.ly"
 | stats count src_ip
 ```
 - Found IP: 85.203.47.86 makes 51 requests to the website which looks suspicious and requires another investigation
+
+![Source IP](src_iphttp.png)
 
 ---
 
@@ -92,6 +97,9 @@ Finding:
 - IP linked to Express VPN service and from Denmark
 - Found in the database and had been reported 63 times
 
+![VPN](ExpressVPN.png)
+![AbuseIPDB](abuseipdb.png)
+
 ---
 
 8 . Investigate User Activity
@@ -101,6 +109,9 @@ Discoverd that the user:
 - Downloaded a file: company_contacts.xlsx
 
 - Possible data exfiltration or reconnaissance activity
+
+![Spreadsheet](spreedsheet.png)
+![Table](tablespreedsheet.png)
 
 ## **Outcome**
 
