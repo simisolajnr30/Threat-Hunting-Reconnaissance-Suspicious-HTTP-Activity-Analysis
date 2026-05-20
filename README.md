@@ -99,7 +99,7 @@ Finding:
 - IP linked to Express VPN service and from Denmark
 - Found in the database and had been reported 63 times
   
-![Threat](Threat virustotal.png)
+![Threat](Threatvirustotal.png)
 ![VPN](ExpressVPN.png)
 ![AbuseIPDB](abuseipdb.png)
 
