@@ -43,6 +43,7 @@ index=botsv2 sourcetype=stream:http
 ```splunk
 index=botsv2 sourcetype=stream:http site="www.froth.ly"
 ```
+![Sites](Sites.png)
 
 4 . Analyze User Agent
 
@@ -54,6 +55,8 @@ index=botsv2 sourcetype=stream:http site="www.froth.ly"
 | sort +count
 ```
 - I noticed a strange user agent named "Naenara Browser" which look unusual.
+
+![User Agent](http_uset_agenthttp.png)
 
 ---
 
