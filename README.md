@@ -34,6 +34,7 @@ Law enforcement warned our organization about a current campaign that may have i
 ```splunk
 index=botsv2 sourcetype=stream:http
 ```
+![HTTP Traffic](botsvhttp.png)
 
 3 . Targeted a Specific Website
 
