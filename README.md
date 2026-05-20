@@ -121,21 +121,6 @@ Discoverd that the user:
 - Confirmed repeated access behaviour (51 requests)
 - identified potential sensitive file download
 
-## **Screenshots** 
-
-![Metadata](metadatahttp.png)
-![HTTP Traffic](botsvhttp.png)
-![Sites](Sites.png)
-![User Agent](http_uset_agenthttp.png)
-![Google Search](googlenaenara.png)
-![Naenara](Naenara.png)
-![Source IP](src_iphttp.png)
-![VPN](ExpressVPN.png)
-![AbuseIPDB](abuseipdb.png)
-![Spreadsheet](spreedsheet.png)
-![Table](tablespreedsheet.png)
-
-
 ## **Key Learnings**
 
 - Always investigate unsual user agents
