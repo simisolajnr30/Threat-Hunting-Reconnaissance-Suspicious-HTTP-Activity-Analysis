@@ -25,6 +25,7 @@ Law enforcement warned our organization about a current campaign that may have i
 ```splunk
 | metadata type=sourcetypes index=botsv2
 ```
+![Metadata](metadatahttp.png)
 
 2 . Focused on HTTP traffic
 
